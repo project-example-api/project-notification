@@ -1,0 +1,12 @@
+<h2>Avisos</h2>
+
+<table *ngIf="responseNotifications">
+    <thead>
+        <td>Título</td>
+    </thead>
+    <tbody>
+        <tr *ngFor="let notification of responseNotifications.list">
+            <td>{{notification.title}}</td>
+        </tr>
+    </tbody>
+</table>

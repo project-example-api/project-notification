@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Implementation-Title: Notification
+Implementation-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: br.com.cers.Application
+Created-By: Maven Integration for Eclipse
+
